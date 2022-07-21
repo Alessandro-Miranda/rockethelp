@@ -27,7 +27,7 @@ export function Filter({ title, isActive = false, type, ...rest }: Props) {
                 fontSize="xs"
                 textTransform="uppercase"
             >
-                a
+                {title}
             </Text>
         </Button>
     );
